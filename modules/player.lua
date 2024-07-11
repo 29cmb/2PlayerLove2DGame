@@ -2,7 +2,7 @@ local player = {}
 
 player.clients = {}
 
-local physicsInstance = require("modules.yan.instance.physics_instance")
+local physicsInstance = require("yan.instance.physics_instance")
 
 function player:Init(world)
     self.world = world
