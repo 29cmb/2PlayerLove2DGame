@@ -15,4 +15,9 @@ function server:Start()
     end)
 end
 
+function server:Update(dt)
+    if not self.Server or not self.World then return end
+    self.World:update(dt)
+end
+
 return server
