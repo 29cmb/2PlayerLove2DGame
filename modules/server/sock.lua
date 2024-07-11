@@ -135,7 +135,7 @@ local function newLogger(source)
         -- Print all incoming event data
         printEventData  = false,
         printErrors     = true,
-        printWarnings   = true,
+        printWarnings   = false,
     }, Logger_mt)
 
     return logger
